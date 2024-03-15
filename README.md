@@ -4,3 +4,8 @@ Este es mi portafolio web, esta hecho con **HTML, CSS y JavaScript**
 Los **Frame Works** que use en este proyecto son: **Bootstrap, Google Fonts, Scrollreveal**
 # Cosas por fixear
 - Los iconos del NavBar.
+# Cosas por hacer
+- Terminos de servicio
+- Seccion de contacto
+- Crearme un Logo
+- Adaptar la pagina para Movil
