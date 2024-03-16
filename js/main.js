@@ -50,7 +50,7 @@ $form.addEventListener('submit', handleSubmit);
 function handleSubmit(event){
     event.preventDefault();
     const form = new FormData(this);
-    $buttonMailTo.setAttribute('href', `mailto:phase.studios@gmail.com?subject=Asunt: ${form.get('asunt')} Email: ${form.get('email')}&body=${form.get('message')}`);
+    $buttonMailTo.setAttribute('href', `mailto:jh0n4as@gmail.com?subject=Asunt: ${form.get('asunt')} Email: ${form.get('email')}&body=${form.get('message')}`);
     $reloadWeb.setAttribute('href', `index.html`);
     $buttonMailTo.click();
     $reloadWeb.click();
