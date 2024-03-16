@@ -42,23 +42,46 @@
         </section>
         <!-- Home -->
         <section class="home-cont">
-            <div class="home-text">
-                <h3 class="font-700">JM Website</h3>
-                <p class="font-500">Hi, is JM. <b style="color: #fff700;" class="web-dev">I'm Web Developer</b><br>Here
-                    you
-                    can see more about me</p>
-            </div>
-            <div class="home-about-me">
-                <img src="./img/JM-Logo.jpg" alt="Jhonaz - JM" title="JM" class="ab-logo">
-                <div class="home-ab-text">
-                    <h3 class="font-800">Jhonaz</h3>
-                    <p class="font-500">Hello! I am a Web Developer, passionate about Front-End.<br>
-                        I am a 14-year-old young man who continues to learn non-stop.<br>
-                        I am open to doing work as long as it is within my knowledge.<br>
-                        My work is Efficient and if you work with me I will try to make<br>
-                        your dream page the way you want it!</p>
+            <div class="home-right">
+                <div class="home-text">
+                    <h3 class="font-700">JM Website</h3>
+                    <p class="font-500">Hi, is JM. <b style="color: #fff700;" class="web-dev">I'm Web
+                            Developer</b><br>Here
+                        you
+                        can see more about me</p>
+                </div>
+                <div class="home-ab">
+                    <div class="home-about-me">
+                        <img src="./img/JM-Logo.jpg" alt="Jhonaz - JM" title="JM" class="ab-logo">
+                        <div class="home-ab-text">
+                            <h3 class="font-800">Jhonaz</h3>
+                            <p class="font-500">Hello! I am a Web Developer, passionate about Front-End.<br>
+                                I am a 14-year-old young man who continues to learn non-stop.<br>
+                                I am open to doing work as long as it is within my knowledge.<br>
+                                My work is Efficient and if you work with me I will try to make<br>
+                                your dream page the way you want it!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <a href="mailto:phase.studios@gmail.com" id="email-send"></a>
+            <a href="index.html" id="reload"></a>
+            <form action="" method="post" id="contact-form">
+                <div class="home-left">
+                    <div class="contact">
+                        <h3 class="font-700">Contactame</h3>
+                        <p class="font-500">Consultas o dudas.</p>
+                        <div class="contact-inputs">
+                            <input type="text" name="asunt" id="asunt" class="contact-asunt" minlength="4"
+                                maxlength="30" placeholder="asunt" autocomplete="on" required>
+                            <textarea name="message" id="message" class="contact-msg" cols="30" rows="10" minlength="30"
+                                maxlength="3000" placeholder="message" required></textarea>
+                            <button type="submit" class="contact-btn" id="contact-send">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
         </section>
     </main>
     <main class="bck-2">
@@ -129,11 +152,16 @@
                 </div>
             </div>
         </section>
+        <!-- Footer -->
+        <section class="footer-cont">
+            <div class="footer-txts">
+                <h3 class="font-800">Page by <a href="https://github.com/Klaandee">Klande</a></h3>
+                <p class="font-600"><a href="./pages/terms-of-service.html">Terms Of Service</a></p>
+                <p class="font-600 footer-hidden">Para poder contactarme o ver mis proyectos, entra desde un Escritorio
+                </p>
+            </div>
+        </section>
     </main>
-    <!-- Footer -->
-    <section class="footer-cont">
-        <h3 class="font-800">Page by <a href="https://github.com/Klaandee">Klande</a></h3>
-    </section>
     <script src="./js/main.js"></script>
 </body>
 
