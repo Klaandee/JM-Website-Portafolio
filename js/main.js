@@ -16,6 +16,13 @@ sr.reveal('.home-right', {
     reset: true
 });
 
+sr.reveal('.home-left', {
+    duration: 1500,
+    origin: 'top',
+    distance: '100px',
+    reset: true
+});
+
 sr.reveal('.lang-icons', {
     duration: 1500,
     origin: 'bottom',
