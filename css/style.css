@@ -480,6 +480,10 @@ html {
     color: #fff;
 }
 
+.footer-txts p {
+    color: #fff;
+}
+
 .footer-txts p a:hover {
     text-decoration: underline;
 }
