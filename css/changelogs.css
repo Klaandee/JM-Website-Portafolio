@@ -7,17 +7,67 @@
 }
 
 body {
-    background: #202020;
+    background: #000;
 }
 
 /* Changelogs Page */
 
-h1 {
+.change-header {
+    background: linear-gradient(rgba(7, 12, 6, 0.75), rgba(7, 12, 6, 0.75)), url(../img/background-3.png) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.change-title h2 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.change-title p {
+    color: #fff;
+    text-align: center;
+}
+
+.change-title a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.change-title p:hover {
+    text-decoration: underline;
+}
+
+.changelogs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.update {
+    color: #fff;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
-    color: #fff;
-    height: 100vh;
+    flex-direction: column;
+    gap: 1rem;
+    background: #8080803d;
+    width: 35rem;
+    height: 10rem;
+    border-radius: 20px;
+    padding: 0.50rem;
+}
+
+.update h1 {
+    font-size: 2.50rem;
 }
