@@ -71,3 +71,15 @@ body {
 .update h1 {
     font-size: 2.50rem;
 }
+
+/*Adaptacion*/
+
+@media screen and (max-width: 550px) {
+    /*Changelogs*/
+    .update h1 {
+        font-size: 1.50rem;
+    }
+    .update {
+        width: 20rem;
+    }
+}
