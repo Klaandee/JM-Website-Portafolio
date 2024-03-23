@@ -417,7 +417,8 @@ html {
 .head-lang {
     margin-top: 1rem;
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
+/*    justify-content: space-between;*/
 }
 
 .head-lang img {
@@ -429,12 +430,35 @@ html {
 }
 
 .html,
-.css,
-.js {
+.css, .js {
     padding: 0.30rem;
     border-radius: 10px;
     display: flex;
     background-color: #000;
+}
+
+.head-lang-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.astro {
+    padding: 0.50rem;
+    margin-top: 0.50rem;
+    width: 7.20rem;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    background: #000;
+}
+
+.astro h2 {
+    font-size: 25px;
+}
+
+.astro img {
+    max-width: 1.50rem;
 }
 
 .js img {
@@ -564,8 +588,8 @@ html {
     }
 
     .proyect-1 {
-        min-height: 24rem;
-        max-height: 24rem;
+        min-height: 28rem;
+        max-height: 28rem;
         padding: 0;
         max-width: 25rem;
         min-width: 25rem;
@@ -573,8 +597,8 @@ html {
 
     .proyect-2 {
         padding: 0;
-        min-height: 17rem;
-        max-height: 17rem;
+        min-height: 25rem;
+        max-height: 25rem;
         max-width: 25rem;
         min-width: 25rem;
     }
